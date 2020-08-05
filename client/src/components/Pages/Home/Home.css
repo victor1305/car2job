@@ -1,0 +1,98 @@
+.container{
+    align-items: center;
+    text-align: center;
+    padding: 6%;
+
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 2%;
+    /* background-color: #b9e769; c5d86d   BCED91*/
+    color: #190933;
+    background-color: #c5d86d;
+    
+}
+
+.home>h1{
+    padding-top: 11%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    margin-bottom: 0;
+    color: black
+}
+
+h1 {
+    padding-top: 5% ;
+    text-align: center;
+    
+}
+
+.home > p {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    color: black;
+    padding-bottom: 6%;
+}
+
+.articleContainer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    text-align: center;
+    align-items: center
+    
+}
+
+.imageHome {
+    width: 50%;
+    padding: 5%;
+}
+
+.mainImage {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+article {
+    padding: 5%;
+}
+
+.line{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.lineContainer{
+    display: flex;
+}
+
+
+
+.icons {
+    width: 7%
+}
+
+.iconsContainer{
+    display:flex;
+    justify-content: space-around;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    position: relative;
+    z-index: 4
+}
